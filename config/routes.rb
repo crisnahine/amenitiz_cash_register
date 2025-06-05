@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   namespace :api do
-    resources :carts, only: [:create]
+    resources :carts, only: [ :create ]
   end
-  root 'pages#index'
+  root "pages#index"
 end

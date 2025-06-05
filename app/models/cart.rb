@@ -10,12 +10,12 @@ class Cart < ApplicationRecord
       price = items.first.product.price
 
       case code
-      when 'GR1'
+      when "GR1"
         paid_items = (quantity / 2.0).ceil
         paid_items * price
-      when 'SR1'
+      when "SR1"
         quantity * (quantity >= 3 ? 4.5 : price)
-      when 'CF1'
+      when "CF1"
         price = quantity >= 3 ? (price * 2 / 3.0).round(2) : price
         quantity * price
       else
