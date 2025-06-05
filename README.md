@@ -29,7 +29,7 @@ This challenge demonstrates clean code, scalable architecture, grouped cart logi
 
 ## 📦 Tech Stack
 
-- **Backend**: Ruby on Rails 7
+- **Backend**: Ruby on Rails 8
 - **Frontend**: React (via Vite)
 - **Styling**: Bootstrap 5
 - **Database**: PostgreSQL (default)
