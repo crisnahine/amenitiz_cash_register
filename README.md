@@ -1,5 +1,10 @@
 # 🧾 Amenitiz Cash Register
 
+## Prerequisites
+
+[![Ruby Style Guide](https://img.shields.io/badge/Ruby-3.4.3-red)](https://www.ruby-lang.org/en/news/2025/04/14/ruby-3-4-3-released/)
+[![Ruby Style Guide](https://img.shields.io/badge/Rails-8.0.2-brightgreen)](https://rubygems.org/gems/rails/versions/8.0.2)
+
 A minimalist yet functional cash register prototype built with **Ruby on Rails**, **React**, **Bootstrap**, and **Vite**.
 
 This challenge demonstrates clean code, scalable architecture, grouped cart logic, and dynamic pricing strategies.
